@@ -1,9 +1,4 @@
-# Summer-Assignment-2401920100209
-Summer Assignment solutions of roll no. 2401920100209
-
-# 📚 Summer Assignment — Roll No. 2401920100209
-
-A structured 4-week plan covering **Data Structures & Algorithms** (Arrays → Strings → Linked Lists/Stack/Queue → Trees) alongside weekly **Object-Oriented Programming** problems in Java.
+# Summer Assignment solutions of roll no. 2401920100209
 
 ---
 
