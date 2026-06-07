@@ -1,4 +1,4 @@
-public interface LibraryUser {
+public interface LibraryUser{
     void registerAccount();
-    void requestBook();     
+    void requestBook();
 }
