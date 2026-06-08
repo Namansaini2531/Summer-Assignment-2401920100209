@@ -8,16 +8,16 @@ class Solution {
       
         HashMap<Character, Integer> map = new HashMap<>();
 
-        for (char c : s.toCharArray())
-            map.put(c, map.getOrDefault(c, 0) + 1);
+        for (char x : s.toCharArray())
+            map.put(x, map.getOrDefault(x, 0) + 1);
 
-        for (char c : t.toCharArray()) {
-            if (!map.containsKey(c)){
+        for (char x : t.toCharArray()) {
+            if (!map.containsKey(x)){
               return false;
             }
-            map.put(c, map.get(c) - 1);
+            map.put(x, map.get(x) - 1);
           
-            if(map.get(c) < 0){
+            if(map.get(x) < 0){
               return false;
             }
         }
